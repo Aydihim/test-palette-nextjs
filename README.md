@@ -1,40 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Для запуска: npm run dev
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# test-palette-nextjs
-# test-palette-nextjs
+Задание 3: Компонент выбора цвета на React и Next.js
+Описание задания:
+Ваша задача - создать компонент выбора цвета на React и Next.js, который позволит пользователю выбирать цвет с использованием различных методов.
+Требования:
+1.	✅ Компонент должен предоставлять пользователю интерфейс для выбора цвета. 
+2.	✅ Пользователь должен иметь возможность выбирать цвет с помощью ползунка для каждого из трех основных цветов (красный, зеленый, синий) или вводить значение вручную.
+3.	✅ Компонент должен отображать выбранный цвет в режиме реального времени.
+4.	✅ Компонент должен иметь кнопку "Применить", при нажатии на которую выбранный цвет будет передан в родительский компонент.
+5.	✅ Код должен быть написан с использованием функциональных компонентов и хуков.
+6.	❌ Ваше приложение должно корректно работать при обновлении страницы (с помощью серверного рендеринга или статической генерации страниц Next.js).
+Бонусные пункты:
+1.	50/50 Использование TypeScript для типизации проекта.
+2.	❌ Добавление возможности выбора цвета с использованием палитры или других методов.
+3.	❌ Добавление анимации или эффектов при выборе цвета.
+4.	❌ Использование Jest и React Testing Library для написания тестов.
